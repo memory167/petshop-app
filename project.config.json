@@ -14,6 +14,7 @@
 		"checkInvalidKey": true,
 		"checkSiteMap": false,
 		"uploadWithSourceMap": true,
+		"compileHotReLoad": false,
 		"babelSetting": {
 			"ignore": [],
 			"disablePlugins": [],
@@ -21,12 +22,11 @@
 		},
 		"useIsolateContext": true,
 		"useCompilerModule": true,
-		"userConfirmedUseCompilerModuleSwitch": false,
-		"compileHotReLoad": false
+		"userConfirmedUseCompilerModuleSwitch": false
 	},
 	"compileType": "miniprogram",
-	"libVersion": "2.9.4",
-	"appid": "wxfb84dab53f7985f4",
+	"libVersion": "2.12.2",
+	"appid": "wxf5bef5ca5c73c7ed",
 	"projectname": "%E6%B5%B7%E9%A3%8E%E5%B0%8F%E5%BA%97",
 	"isGameTourist": false,
 	"scripts": {
@@ -53,9 +53,20 @@
 			"currentL": -1,
 			"list": []
 		},
+		"gamePlugin": {
+			"current": -1,
+			"list": []
+		},
 		"miniprogram": {
 			"current": 2,
-			"list": []
+			"list": [
+				{
+					"id": -1,
+					"name": "pages/category/index",
+					"pathName": "pages/category/index",
+					"scene": null
+				}
+			]
 		}
 	}
 }
