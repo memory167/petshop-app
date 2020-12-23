@@ -1,5 +1,6 @@
 // const ApiRootUrl = 'http://localhost:8360/api/';
 const ApiRootUrl = 'http://jamin.site:8360/api/';
+// const ApiRootUrl = 'https://www.hiolabs.com/api/';
 
 module.exports = {
     // 登录

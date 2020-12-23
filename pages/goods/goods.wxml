@@ -120,10 +120,10 @@
                     </button>
                 </form>
             </view>
-            <button class='left-icon contact-button' session-from='{"nickName":"{{userInfo.nickname}}","avatarUrl":"{{userInfo.avatar}}"}' open-type="contact" show-message-card="true" hover-class="none">
+            <!-- <button class='left-icon contact-button' session-from='{"nickName":"{{userInfo.nickname}}","avatarUrl":"{{userInfo.avatar}}"}' open-type="contact" show-message-card="true" hover-class="none">
                 <image class='icon' src='/images/icon/chat.png'></image>
                 <view class='icon-text'>客服</view>
-            </button>
+            </button> -->
             <view class="left-icon" bindtap='openCartPage'>
                 <text class="cart-count">{{cartGoodsCount}}</text>
                 <image class='icon' src='/images/nav/icon-cart-b.png'></image>
@@ -169,6 +169,6 @@
     </view>
 </view>
 <view class="loading" style="height:{{sysHeight}}px" wx:else>
-    <image class="img" src="/images/icon/loading.gif"></image>
-    <view class="text">海风吹啊吹</view>
+    <!-- <image class="img" src="/images/icon/loading.gif"></image> -->
+    <view class="text"></view>
 </view>

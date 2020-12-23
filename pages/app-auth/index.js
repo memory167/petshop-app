@@ -18,7 +18,7 @@ Page({
         };
     },
     getUserInfo: function (e) {
-        app.globalData.userInfo = e.detail.userInfo
+        app.globalData.userInfo = e.detail.userInfo;
         user.loginByWeixin().then(res => {
             app.globalData.userInfo = res.data.userInfo;
             app.globalData.token = res.data.token;
@@ -29,6 +29,7 @@ Page({
             }
             else if (is_new == 1) {
                 wx.navigateBack();
+                
             }
 
         }).catch((err) => { });

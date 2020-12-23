@@ -1,6 +1,6 @@
 <view class="container">
     <view class='logo'>
-        <image class='logo-img' src='/images/icon/loading.gif'></image>
+        <image class='logo-img' src='/images/icon/weixin.png'></image>
     </view>
     <view class='logo-name'>宠物小店</view>
 
