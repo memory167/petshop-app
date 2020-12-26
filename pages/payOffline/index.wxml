@@ -20,7 +20,7 @@
             <view class="text">提交失败</view>
             <button class='contact-wrap' session-from='{"nickName":"{{userInfo.nickname}}","avatarUrl":"{{userInfo.avatar}}"}'  open-type="contact" session-from="weapp">
                 <image src="/images/icon/contact.png" class='contact-icon'></image>
-                <view class='contact'>联系客服</view>
+                <!-- <view class='contact'>联系客服</view> -->
             </button>
         </view>
         <view class='btn-go-order' bindtap="toOrderListPage">返回我的页面</view>

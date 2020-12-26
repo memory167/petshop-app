@@ -120,10 +120,7 @@
                     </button>
                 </form>
             </view>
-            <!-- <button class='left-icon contact-button' session-from='{"nickName":"{{userInfo.nickname}}","avatarUrl":"{{userInfo.avatar}}"}' open-type="contact" show-message-card="true" hover-class="none">
-                <image class='icon' src='/images/icon/chat.png'></image>
-                <view class='icon-text'>客服</view>
-            </button> -->
+
             <view class="left-icon" bindtap='openCartPage'>
                 <text class="cart-count">{{cartGoodsCount}}</text>
                 <image class='icon' src='/images/nav/icon-cart-b.png'></image>
